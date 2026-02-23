@@ -1,0 +1,65 @@
+body {
+  font-family: Arial;
+  background: #f4f6f9;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.weather-card {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+.weather-card img {
+  width: 100px;
+}
+
+.temp {
+  font-size: 28px;
+  font-weight: bold;
+}
+.forecast-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.forecast-item {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.forecast-item img {
+  width: 50px;
+}
